@@ -1,9 +1,15 @@
 <template>
-  <h1>Hello World!</h1>
+  <app-status></app-status>
 </template>
 
 <script>
-
+        export default{
+          data : function(){
+            return {
+              status : 'Critical'
+            }
+          }
+        }
 
 </script>
 
