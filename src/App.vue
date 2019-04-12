@@ -1,15 +1,16 @@
 <template>
-  <app-status/>
+  <app-status />
 </template>
 
 <script>
-        export default{
-          data : function(){
-            return {
-              status : 'Critical'
-            }
-          }
-        }
+
+export default {
+  data: function() {
+    return {
+      status: 'Critical',
+    };
+  },
+};
 
 </script>
 
