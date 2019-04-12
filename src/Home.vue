@@ -1,6 +1,6 @@
 <template>
     <div>
-      Server Status is: {{status}}
+      Server Status is: {{ status}}
       <hr>
       <button @click = "changeStatus">Change Status</button>
 
@@ -23,6 +23,6 @@
     }
 </script>
 
-<style scoped>
+<style>
 
 </style>
