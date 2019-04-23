@@ -1,26 +1,18 @@
 <template>
   <div>
-    Server Status is: {{ status }}
-    <hr>
-    <button @click="changeStatus">
-      Change Status
-    </button>
+    <app-server-status
+      v-for="(server,index) in 5"
+      :key="index"
+    />
   </div>
 </template>
 
 <script>
+import ServerStatus from './ServerStatus';
 
 export default {
-  name: 'Home',
-  data: function() {
-    return {
-      status: 'Normal',
-    };
-  },
-  methods: {
-    changeStatus() {
-      this.status = 'Critical';
-    },
+  components: {
+    'app-server-status': ServerStatus,
   },
 };
 

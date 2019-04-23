@@ -11,5 +11,9 @@
   "plugins": [
     "vue",
     "eslint-plugin-vue"
-  ]
+  ],
+  "rules": {
+    "linebreak-style": 0
+  }
+
 }
